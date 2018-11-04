@@ -71,3 +71,7 @@ Change to another version of tensorflow which corresponds to my CPU.
 [Tensorflow的基本概念与常用函数](http://www.cnblogs.com/focusonepoint/p/7544369.html)
 
 收尾？
+
+[Google Colab——用谷歌免费GPU跑你的深度学习代码](https://www.jianshu.com/p/000d2a9d36a0)
+
+[codalab](https://worksheets.codalab.org/)
