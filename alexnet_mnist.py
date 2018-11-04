@@ -8,7 +8,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 mnist = read_data_sets("MNIST_data", one_hot=True)
 # 定义网络的一参数
 learning_rate = 0.001
-training_iters = 1500
+training_iters = 200000
 batch_size = 64
 display_step = 10
 # 定义网络的参数

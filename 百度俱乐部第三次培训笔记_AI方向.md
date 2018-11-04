@@ -72,6 +72,50 @@ Change to another version of tensorflow which corresponds to my CPU.
 
 收尾？
 
-[Google Colab——用谷歌免费GPU跑你的深度学习代码](https://www.jianshu.com/p/000d2a9d36a0)
+**11月4日**
 
-[codalab](https://worksheets.codalab.org/)
+上网搜了一下，发现Google有个Project提供免费GPU，这等好机会怎能不上车？
+
+[Google Cola——用谷歌免费GPU跑你的深度学习代码](https://www.jianshu.com/p/000d2a9d36a0)
+
+[Google Colab 免费GPU服务器使用教程](https://blog.csdn.net/cocoaqin/article/details/79184540)
+
+[用谷歌的GPU跑你的代码----Colaboratory使用记录](https://blog.csdn.net/ssssdbucdbod/article/details/80397808)
+
+跑起来比我的CPU快太多了哈哈哈哈
+
+```Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Iter 640, Minibatch Loss= 28612032512.000000, Training Accuracy= 0.42188
+Iter 1280, Minibatch Loss= 4435920896.000000, Training Accuracy= 0.73438
+Iter 1920, Minibatch Loss= 2665623552.000000, Training Accuracy= 0.84375
+Iter 2560, Minibatch Loss= 4025618176.000000, Training Accuracy= 0.75000
+Iter 3200, Minibatch Loss= 1185190400.000000, Training Accuracy= 0.89062
+Iter 3840, Minibatch Loss= 1791164800.000000, Training Accuracy= 0.90625
+Iter 4480, Minibatch Loss= 1212556416.000000, Training Accuracy= 0.84375
+Iter 5120, Minibatch Loss= 1176468480.000000, Training Accuracy= 0.89062
+Iter 5760, Minibatch Loss= 1080382464.000000, Training Accuracy= 0.93750
+Iter 6400, Minibatch Loss= 252601376.000000, Training Accuracy= 0.95312
+Iter 7040, Minibatch Loss= 876277632.000000, Training Accuracy= 0.90625
+Iter 7680, Minibatch Loss= 1016428032.000000, Training Accuracy= 0.89062
+Iter 8320, Minibatch Loss= 1266267648.000000, Training Accuracy= 0.87500
+Iter 8960, Minibatch Loss= 781798144.000000, Training Accuracy= 0.95312
+Iter 9600, Minibatch Loss= 559357312.000000, Training Accuracy= 0.90625
+……
+Iter 71680, Minibatch Loss= 91539840.000000, Training Accuracy= 0.95312
+Iter 72320, Minibatch Loss= 37425760.000000, Training Accuracy= 0.96875
+Iter 72960, Minibatch Loss= 121470240.000000, Training Accuracy= 0.98438
+Iter 73600, Minibatch Loss= 31348128.000000, Training Accuracy= 0.98438
+Iter 74240, Minibatch Loss= 8765392.000000, Training Accuracy= 0.98438
+Iter 74880, Minibatch Loss= 0.000000, Training Accuracy= 1.00000
+Iter 75520, Minibatch Loss= 0.000000, Training Accuracy= 1.00000
+Iter 76160, Minibatch Loss= 31806688.000000, Training Accuracy= 0.96875
+Iter 76800, Minibatch Loss= 0.000000, Training Accuracy= 1.00000
+Iter 77440, Minibatch Loss= 29958624.000000, Training Accuracy= 0.98438
+Iter 78080, Minibatch Loss= 0.000000, Training Accuracy= 1.00000
+Iter 78720, Minibatch Loss= 9216440.000000, Training Accuracy= 0.96875
+```
+
